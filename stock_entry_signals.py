@@ -16,7 +16,7 @@ import yfinance as yf
 import pandas as pd
 
 # Define watchlist
-watchlist = ["WDC", "STX"]
+watchlist = ["WDC", "STX", "GOOGL", "AVGO", "RCL", "COST", "AMZN", "MSFT", "MNST"]
 
 # Download 1 year of daily data for stocks
 def get_data(ticker):
