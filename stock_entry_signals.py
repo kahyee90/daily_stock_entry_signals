@@ -19,7 +19,7 @@ import pandas as pd
 watchlist = ["WDC", "STX", "GOOGL", "AVGO", "RCL", "COST", "AMZN", 
              "MSFT", "MNST", "META", "NVDA", "TJX", "AMD", "EAT", 
              "HWM", "JNJ", "LLY", "LRCX", "MA", "MU", "TSM", "V",
-             "INTC", "WMT", "AAPL"]
+             "INTC", "WMT", "AAPL", "JPM"]
 
 # Download 1 year of daily data for stocks
 def get_data(ticker):
